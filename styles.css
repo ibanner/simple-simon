@@ -1,0 +1,71 @@
+body {
+  background-color: #393E46;
+  font-family: 'Press Start 2P', cursive;
+  color: #4ECCA3;
+  text-align: center;
+  margin: auto;
+}
+
+a {
+  color: #fff;
+}
+
+button {
+  display: block;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #4ECCA3;
+  color: #fff;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #009688;
+}
+
+footer {
+  display: inline-block;
+  width: 100;
+  color: #eee;
+}
+
+.game-title {
+  margin: 15px;
+  font-family: 'Monoton', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.announcement {
+  font-size: 1.6rem;
+}
+
+/* Playgraound */
+
+.playground {
+  display: block;
+  background-color: #000;
+  width: 400px;
+  margin: auto;
+  clear: both;
+}
+
+.simon-button-container {
+  margin: 5px;
+  display: block;
+  width: 180px;
+  height: 180px;
+  float: left;
+  border: 5px solid #000;
+}
+
+.simon-button {
+  height: 100%;
+  width: 100%;
+}
+
+.simon-button.green {background-color: #008000;}
+.simon-button.red {background-color: #ff0000;}
+.simon-button.yellow {background-color: #ffff00;}
+.simon-button.cyan {background-color: #03a9f4;}
