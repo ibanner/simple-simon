@@ -60,9 +60,18 @@ footer {
   border: 5px solid #000;
 }
 
+.simon-button-container.pressed {
+  border: 5px solid #FFF;
+  border: 5px solid rgba(255,255,255,.7);
+}
+
 .simon-button {
   height: 100%;
   width: 100%;
+}
+
+.pressed .simon-button {
+  opacity: .5;
 }
 
 .simon-button.green {background-color: #008000;}
